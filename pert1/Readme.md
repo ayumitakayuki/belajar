@@ -1,4 +1,4 @@
-# COMMAND DASAR LINUX
+# PERINTAH DASAR LINUX
 
 ## mkdir
 mkdir = membuat folder
@@ -27,14 +27,30 @@ nano = untuk membuka configurasi
 ## &&
 && = untuk menjalankan dua command atau lebih
 
-## g++ & ./
-g++ & ./(nama file) = untuk running c++
+# PERINTAH DASAR GIT
 
-## git add .
-git add . = untuk meng-push ke github
+## untuk menambahkan file ke index
+melakukan perintah :
+    
+    git add .
 
-## git commit -m
-git commit -m "note" = untuk mengubah kondisi file yang sudah tersimpan. -m sebagai note 
+perintah ini juga sebagai menambahkan perubahan pada GIT
+#
+
+## untuk menyimpan perubahan versi revisi
+melakukan perintah :
+    
+    git commit -m "note"
+
+-m disini sebagai sebuah pesan ketika commit di GIT
+#
 
 ## git push -u origin main
 git push -u origin main = buat push ke github
+
+## untuk running c++
+melakukan perintah :
+    
+    g++ samplearray.cpp -o samplearray
+    ./samplearray
+#
